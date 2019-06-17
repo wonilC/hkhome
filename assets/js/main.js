@@ -1,9 +1,3 @@
-var express = require('express');
-var http = require('http');
-var app = express();
-var server = http.createServer(app);
-
-
 /*
 	Minimaxing by HTML5 UP
 	html5up.net | @ajlkn
@@ -55,8 +49,3 @@ var server = http.createServer(app);
 				});
 
 })(jQuery);
-
-
-server.listen(5000,function(){
-  console.log('hello world');
-});
